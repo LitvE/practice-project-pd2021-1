@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Link, withRouter } from 'react-router-dom';
 import styles from './Header.module.sass';
 import CONSTANTS from '../../constants';
+import Logo from '../Logo';
 import { getUserAction, clearUserStore, headerRequest } from '../../actions/actionCreator';
 
 class Header extends React.Component {
@@ -87,15 +88,19 @@ class Header extends React.Component {
           </div>
           <div className={styles.loginSignnUpHeaders}>
             <div className={styles.numberContainer}>
+              <a style={{textDecoration: 'none'}} href={`tel:${CONSTANTS.CONTACTS.TEL}`}>
               <img src={`${CONSTANTS.STATIC_IMAGES_PATH}phone.png`} alt="phone" />
-              <span>(877)&nbsp;355-3585</span>
+              {CONSTANTS.CONTACTS.TEL}
+              </a>
+              {/* <span>(877)&nbsp;355-3585</span> */}
             </div>
             <div className={styles.userButtonsContainer}>
               {this.renderLoginButtons()}
             </div>
           </div>
           <div className={styles.navContainer}>
-            <img src={`${CONSTANTS.STATIC_IMAGES_PATH}blue-logo.png`} className={styles.logo} alt="blue_logo" />
+            {/* <img src={`${CONSTANTS.STATIC_IMAGES_PATH}blue-logo.png`} className={styles.logo} alt="blue_logo" /> */}
+            <Logo className={styles.logo} />
             <div className={styles.leftNav}>
               <div className={styles.nav}>
                 <ul>

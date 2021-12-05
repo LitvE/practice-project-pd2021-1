@@ -9,6 +9,9 @@ export default {
   CONTEST_STATUS_PENDING: 'pending',
   NAME_CONTEST: 'name',
   LOGO_CONTEST: 'logo',
+  CONTACTS: {
+    TEL: '(877) 355-3585',
+  },
   TAGLINE_CONTEST: 'tagline',
   OFFER_STATUS_REJECTED: 'rejected',
   OFFER_STATUS_WON: 'won',
