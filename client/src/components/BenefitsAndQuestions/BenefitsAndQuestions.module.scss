@@ -47,8 +47,8 @@ ul >li{
     transition: all 0.2s ease-in-out;
 
     font-size: .8175rem;
-    width: 3.5rem;
-    height: 2rem;
+    min-width: 30px;
+    height: 30px;
     color: #377dff;
     position: relative;
     line-height: 0;
