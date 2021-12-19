@@ -1,0 +1,21 @@
+[
+    {
+        "iclass": "fab fa-whmcs",
+        "header": "Managed Contests",
+        "body": "Combine the power of crowdsourcing with the rich experience of our branding consultants. Get a complete agency-level experience.",
+        "link": "#"
+    },
+    {
+        "iclass": "fa fa-users",
+        "header": "Audience Testing",
+        "body": "Get unbiased feedback from real people to choose your most important brand elements with confidence!",
+        "link": "#"
+    },
+    {
+        "iclass": "fas fa-trademark",
+        "header": "Trademark Support",
+        "body": "Work with our team of experienced licensed trademark attorneys to protect your name, tagline, and logo with the USPTO.",
+        "link": "#"
+    }
+]
+

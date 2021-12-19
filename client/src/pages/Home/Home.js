@@ -10,6 +10,7 @@ import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
 import CardsList from '../../components/CardsList/CardsList';
 import BenefitsAndQuestions from '../../components/BenefitsAndQuestions/BenefitsAndQuestions';
+import Experience from '../../components/Experience/Experience';
 
 const Home = (props) => {
   const [index, setIndex] = useState(0);
@@ -210,6 +211,7 @@ const Home = (props) => {
                 DASHBOARD
               </Link>
             </div>
+            <Experience />
             <div className={styles.blueContainer}>
               <h2 className={styles.whiteUnderline}>What our customers say</h2>
               <SlideBar

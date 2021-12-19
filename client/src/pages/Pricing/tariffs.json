@@ -1,0 +1,26 @@
+[
+    {
+        "h3": "Bronze",
+        "p": "Branding on a budget        ",
+        "price": "US$299",
+        "color": "#e0b48d"
+    },
+    {
+        "h3": "Gold",
+        "p": "Increase participation and basic brand validation",
+        "price": "US$449",
+        "color": "#e8b954"
+    },
+    {
+        "h3": "Platinum",
+        "p": "Work with top-level creatives, plus agency-style brand validation",
+        "price": "US$749",
+        "color": "#555"
+    },
+    {
+        "h3": "Managed",
+        "p": "A full agency experience without the agency price tag",
+        "price": "US$1199",
+        "color": "#28d2d0"
+    }
+]

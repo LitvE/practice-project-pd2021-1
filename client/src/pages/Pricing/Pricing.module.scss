@@ -1,0 +1,152 @@
+body{
+
+    margin: 0;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row{
+    width: 1250px;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
+.container{
+    padding: 0!important;
+    min-height: 1px;
+    border: 0 solid #e5e7eb;
+
+}
+
+.ulStyle{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+
+}
+
+.pricingBox{
+    border: 10px solid #eee;
+    padding: 16px;
+    margin-bottom: 15px;
+    min-width: 185px;
+    background-color: #fff;
+}
+
+
+.pricingBox > h3{
+    font-size: 33px;
+    margin-top: 0;
+    font-weight: 700;
+    text-align: left;
+}
+
+.pricingBox > p{
+    color: #666;
+    font-size: 16px;
+    font-weight: 500;
+    min-height: 75px;
+    margin: 0;
+    text-align: left;
+}
+
+.pricingBox > span{
+    font-size: 28px;
+    font-weight: 600;
+    text-align:right;
+    width: 100%;
+}
+
+.subUlStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subUlStyle > li{
+    margin-bottom: 0!important;
+    padding: 13px 0 13px 0;
+    text-align: left;
+    word-wrap: break-word;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 2px solid #ddd;
+}
+
+.subDivStyle{
+    font-weight: 500;
+    padding-top: 13px;
+    padding-left: 15px!important;
+    padding-bottom: 2px!important;
+    font-size: 13px!important;
+
+}
+
+.aStyle{
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.listStyle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionStyle{
+    text-align: left;
+}
+
+.sectionStyle > p{
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Raleway',sans-serif;
+}
+
+.sectionStyle > p > a{
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.button{
+    margin-top: -2px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button > a {
+    border: 2px solid #e0b48d;
+    background: #e0b48d;
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 45px;
+    border-radius: 5px;
+    text-decoration: none;
+}
